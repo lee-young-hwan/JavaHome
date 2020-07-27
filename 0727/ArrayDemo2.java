@@ -30,6 +30,7 @@ public class ArrayDemo2{
 			{
 				min = array[i];
 			}
+
 			if (max < array[i])
 			{
 				max = array[i];
