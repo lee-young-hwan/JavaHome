@@ -1,0 +1,230 @@
+윈도우아이콘->설정->업데이트->업데이트확인
+
+
+제어판(프로그램 추가제거) 들어가는법
+
+실행창 -> 'Appwiz.cpl' 입력 -> McAfee LiveSafe 제거 -> 나중에 다시시작
+
+
+https://www.dropbox.com -> 다운로드 -> 다운로드 완료 후 내 이메일로 회원가입
+
+
+/*
+CBD = Component Base Develope  oop -> CBD -> SoA
+RestfulAPI 
+oop로 자바의 개념을 잡고, CBD로 Spring 배우기
+C언어는 #include <stdio.h> 를 헤더에 입력함
+키보드,마우스,클릭 등등 입력 -> Memory -> 모니터, 포인터, 네트워크, 파일 등등 출력
+키보드 -> 스탠다드(std) 표준입력
+모니터 -> 스탠다드(std) 표준출력
+
+           -HelloWorld.java 메모장-
+Java는 import java.lang.*; 를 헤더에 입력함 (생략가능)
+printf를 사용하려면 <stdio.h> 가 필요하다
+System.out.println 이 명사형이고, 맨 앞글자가 S면 
+System은 Java.lang이 필요함
+URL은 <-방향으로 찾음 ex) www.naver.com은 com부터 찾음 => com은 naver에 속해있는 www
+.은 ~아래 ~에 속해있는 것(C언어에선 .이 ~아래라는 뜻)
+out은 변수(소문자이고, 명사형(ex) out이면 변수, 동사형(ex) println이면 함수)
+out은 PrintStream이라는 데이터 타입이다 ex) out. -> printstream이라는뜻
+" 은 string(문자열)
+println(String x) = 표준출력으로 ( )안에 있는 문자열을 출력하는 function 메소드
+System.out = 표준출력
+임시,가상메모리 = SWAP
+임시메모리와 메모리를 왔다갔다 이동 = SWAPPING
+메모리와 하드디스크는 저장만 함
+하나의 단위씩 일을 처리하는 최소단위 = 문장();
+CPU(CLUCK)
+println에서 ln은 줄바꾸는 역할
+main이 시작과 끝을 결정함
+입력,연산,출력 = 모든 프로그램
+1차 프로젝트 = DB에서부터 읽어서 저장 또는 결과로 출력
+Java의 모든 코드는 Class안에 들어가야함
+Class안에 main
+다른이름저장할때 중요한것 = 위치, 파일이름, 파일형식
+인코딩은 ANSI 로 저장
+*/
+
+
+Avast Free Antivirus -> 거부하기
+
+
+파이어폭스(Core_Java)와 HelloWorld 메모장 열기 ->
+
+cmd -> d: -> cd javahome -> dir -> javac HelloWorld.java -> dir -> java HelloWorld
+(되는지 안되는지 확인하려면 java -version / javac -version 입력해봄)
+
+
+
+-EditPlus-
+
+www.editplus.com -> 한국어로 변경 -> 5.3 다운로드 -> 64비트, 2.48MB 다운로드       -> C드라이브에 Program File
+    (작은길이가 원본)                5.3패치빌드 -> 최신패치 64비트 다운로드       -> 똑같음
+
+-> Trial 클릭 -> I Agree 클릭 -> D드라이브로 변경해줌 -> JavaHome 클릭 -> HelloWorld.java 클릭
+
+-> Tools 클릭 -> Preferences 클릭 -> Fonts 설정하기 -> File 클릭 -> 첫번째 backupfile 체크해제
+
+-> Settings & syntax 클릭 -> Templates 클릭             
+
+★맨윗줄엔 꼭 주석을 달아줘야한다★ // 또는 /* */
+
+-Templates 수정방법-
+
+/*
+작성자 : 내 이름
+작성목적 : ~~하는 프로그램
+작성일시 : 언제 코딩을 했는지
+작성환경 : OS, Java의 버전, 어떤 Edit에서 했는지
+*/
+
+public class{
+	public static void main(String[] args) {
+		
+	}
+}
+
+이렇게 템플릿을 수정한다 (기본틀)
+
+-> Ctrl + s 로 저장 -> Program Files의 EditPlus -> template.java 클릭하고 덮어쓰기 -> 오류
+
+-> File -> Save As -> 바탕화면저장 -> Program Files의 EditPlus에 바탕화면에 있던 template.java
+
+드래그 -> 
+
+
+C드라이브 -> 사용자 -> 자기계정 -> 숨겨진파일 체크 -> AppData -> Roaming -> EditPlus 
+
+-> template.java (오늘날짜) 로 변경
+
+Tools -> Configure User tool -> Group name 클릭 -> Java로 변경 -> Add Tool -> Program
+
+-> Menu text에 'Java Compiler' 입력 -> Command에 jdk-14.0.2폴더의 bin의 'javac.exe' 클릭
+
+-> Argument에서 'File name' 클릭 -> intial directiory에서 file directory 클릭
+
+->action에서 capture output 클릭
+
+Tools -> Configure User tool -> Add Tool -> Program -> 위처럼 동일하게 'Java Run' , java.exe,
+
+Filename without extension, file directiory, capture
+
+
+
+
+/*
+작성자 : 내 이름
+작성목적 : ~~하는 프로그램
+작성일시 : 언제 코딩을 했는지
+작성환경 : OS, Java의 버전, 어떤 Edit에서 했는지
+*/
+
+public class Test{
+	public static void main(String[] args) {
+		System.out.print("Core Java -> ");
+		System.out.print("Oracle -> ");
+		System.out.print("JDBC -> ");
+		System.out.println("1차 프로젝트");
+	}
+}
+
+
+
+종이모양 클릭 -> Java -> d드라이브 -> JavaHome -> Test.java로 이름변경 
+
+
+/* ctrl+1은 컴파일, ctrl+2는 실행  */
+
+
+
+--------------오후 수업----------------------------
+
+스크립트 언어 = CPU에 종속되지 않음
+
+JAVA는 컴파일러+인터프리어 언어의 장점을 가지고 있음
+
+주석은 디버깅 용으로 사용하기도 함
+
+주석은 " "(쌍따옴표) 안에 입력하면 안된다 
+
+public은 외부에서 접근이 가능한값
+
+void = 자판기가 있으면 500원을 넣으면 200원+밀크커피가 나오는데
+       200원이 반환값. 
+
+void는 main이 끝났을 때 자기를 호출
+
+static = Shared(공유변수)
+
+java Test.main()   (여기서 Test는 클래스)
+->  자동으로 메인이 붙음
+
+
+1. 자바파일안에 클래스파일 여러개 넣을수 있지만 단 하나의 클래스만 Public이다
+  (하나의 클래스에 Public이 2개이상있으면 에러)
+
+2. 단 1개의 클래스만 main을 가져야한다
+
+3. 저장할때 public을 가지고 있고, main이 존재하는 것이 파일 이름이 된다
+
+4. 1개의 자바에 1개의 클래스를 가지는 것이 원칙이다 (안된다는 것은 아님)
+
+5. 클래스명은 대문자
+
+
+-폴더공유한거 가져오는 방법-
+윈도우+r -> \\아이피주소 -> 파일들 드래그해서 바탕화면
+
+-이건 파일을 공유하는 방법-
+
+탐색기 -> 폴더오른쪽버튼 -> 속성 -> 공유 -> 공유누르기 -> 드롭다운 누르고 Everyone
+
+제어판 -> 네트워크 및 인터넷 -> 네트워크 및 공유센터 -> 고급 공유 설정
+
+공유옵션 -> 네트워크 검색 켜기 -> 공유 켜기
+
+게스트 또는 공용 -> 켜기 -> 켜기
+
+★이거 외워보기★
+class 클래스이름 {
+public static void main(string[] args)
+{
+
+}
+
+}
+211.63.89.148
+
+
+github.swacademy -> Repositories -> JavaSE (오늘 한건 Chapter 1)
+
+Edit는 Chapter 2
+
+
+heap : 객체에 저장
+stack : 지역변수에 저장
+
+
+프로그래밍 기초가 부족하면 '프로그래밍 비타민' 책 구입
+
+
+2진법 기준에선 1MB 1TB가 아니고 1MIB 1TIB 처럼 쓴다
+
+인코딩과 디코딩하는 원리 = 캐릭터셋
+
+변수나 상수에 들어가지 않으면 Literal라고 하고
+변수나 상수에 들어가면 Value라고 한다.
+
+16진수 = 메모리 주소를 나타낼 때 이용
+8진수 = 
+
+ASCII = 정보교환을 위해 만든 코드 
+
+ASCII는 8자리중에 7개로만 표현 (맨 왼쪽의 앞자리는 양수,음수를 구별할 때 사용)
+확장ASCII는 8자리중 8개 다 표현
+
+
+
+
+
+

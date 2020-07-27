@@ -1,0 +1,294 @@
+
+대문자,소문자 알파벳 섞인 문제 : JavaHome의 0724 폴더 (파일 : ForDemo.java)
+
+
+public class ForDemo{
+	public static void main(String[] args) {
+
+		int count = 0; // 하나도 안찍었으니까 0으로 선언
+		int line = 1;
+
+		for(int i = 65; i <= 90 ;i++ )
+		{
+			if(line % 2 == 0)  // line이 짝수 줄이라면
+			{
+				System.out.printf("%-5c", (char)(i+32));   // 소문자로 출력
+			}
+
+			else // 라인이 홀수 줄이라면
+			{
+				System.out.printf("%-5c", (char)i);        // 대문자로 출력
+			}
+
+			
+
+			count++;         // 1개 출력할 떄마다 카운트를 증가시킴
+
+
+			if(count % 5 == 0) // 5개마다 줄을 바꿈
+			{
+				System.out.println();
+				line++;
+			}
+
+		}
+
+
+	}
+}
+
+
+
+모양만들기 (파일: ForDemo3.java)
+
+★ ★ ★ ★ ★
+
+
+A
+AB
+ABC
+ABCD 를 26줄 
+
+
+A
+BC
+DEF
+GHIJ ... 65부터 시작, 90을 만나면 break
+
+
+
+012345
+012345
+012345
+012345
+012345
+
+
+
+00000
+11111
+22222
+33333
+44444
+55555
+
+
+
+012345
+123456
+234567
+345678
+456789
+
+
+
+★★★★★
+★★★★
+★★★
+★★
+★
+
+
+
+
+1
+23
+345
+4567
+56789 (나중에 해보기)
+
+
+
+
+
+
+과제(다이아몬드 만들기) 아래처럼 하는게 힌트
+
+for()
+{                 // 위에 삼각형
+ for()
+ for()
+}
+
+for()
+{                 // 아래 삼각형
+ for()
+ for()
+}
+
+
+
+
+
+
+
+1. 100이하의 자연수 중에서 4의 배수이면서 5의 배수가 아닌 값 출력하기
+
+
+public class Jayeonsu100{
+	public static void main(String[] args) {
+		
+		for (int i=1 ;i <= 100 ;i++)
+		{
+			if ((i % 4 ==0) && (i % 5 !=0))
+			{
+				System.out.print(i + "   ");
+			}
+		}
+
+	}
+}
+
+
+
+
+
+2. 100이하의 자연수 중에서 7 또는 9의 배수인 값 출력하기
+
+
+public class Jayeonsu100{
+	public static void main(String[] args) {
+		
+		for (int i=1 ;i <= 100 ;i++)
+		{
+			if ((i % 7 ==0) || (i % 9 ==0))
+			{
+				System.out.print(i + "   ");
+			}
+		}
+
+	}
+}
+
+
+
+3. 자연수 중에서 100의 약수를 모두 찾아 1줄에 3개씩 출력하기
+
+
+
+
+
+
+
+4. 다음의 결과 출력하기
+   1    2    3    4    5
+   2    3    4    5
+   3    4    5   
+   4    5  
+   5
+
+
+
+for(int i = 1; i <= 5; i++)
+		{
+			for(int j =i; j <= 5; j++)
+			{
+				System.out.printf("%d  ", j);
+			}
+			System.out.println();
+		}
+
+
+
+   
+5. 유니코드 41 ~ 122번까지의 코드와 문자를 한 줄에 8개씩 출력하기
+   41 : )    42 : *   43 : +   44 : ,   45 : -  46 : .   47 : /   48 : 0
+   ...
+   121 : y  122 : z
+
+
+
+
+456789
+
+
+
+
+
+
+System.out.println("< 2~100사이의 소수 출력>");
+		for(int i=2; i<=100; i++) {    //num배열에 2-100 숫자 저장
+			num[i-2]=i;                //배열 값을 i로 설정 ,2부터 시작하므로i-2
+		
+		for(int j=2; j<=100; j++) {     //j는 나눌수, 2-100사이의 숫자중 소수를 골라내기 위한 반복문
+			
+			if(i%j==0) {       //나눠서 0이고 그게 자기자신이 아니면 출력x 
+				if(j!=i) {
+				
+			   break;
+				}
+				else {                //이외는 출력 
+					System.out.print(i+" ");  // 옆으로 띄워쓰기 위해 " "
+
+
+
+향상된 for문은 배열과 컬렉션에서만 사용
+
+향상된 for문은 인덱스를 사용하지 않음 (번지 사용x) = 속도향상
+
+
+
+
+int i = 1; // 초기치                                       
+	while (i <= 100) // 조건                                 
+	{                                                   
+		if (i % 7 == 0)
+			System.out.print(i + "   ");
+			i++; // 증감치 ★(까먹지 않게 주의)★
+			
+	}
+
+
+
+유저가 입력한 숫자들 중 가장 큰 수 찾아내기
+(단, 유저가 입력한 숫자들 중 음수가 들어오면 입력 끝으로 본다)
+
+
+
+★★★자바를 무료로 배울 수 있는 사이트★★★
+
+
+1. https://edu.goorm.io/search?subject=자바
+
+2. https://www.dream.go.kr/dream/vocationalTraining/onlearningCenter.do?menuSeq=10607&groupSeq=1
+  (정보화 -> 웹프로그래밍)
+
+
+4. https://e-koreatech.step.or.kr -> '자바' 검색
+
+
+
+
+
+
+
+
+
+
+
+
+
+for(int i = 1; i <= 9; i++)        // 구구단
+		{
+			for(int j = 2; j <= 9; j++)
+			{
+				System.out.printf("%d x %d = %d\n", j, i, j * i);
+			}
+			System.out.println();
+		}
+
+
+
+
+
+1부터 얼마까지 더해야 그 결과가 백만을 넘어갈까요?
+
+
+
+do while은 while(   ) 을 마지막 괄호 뒤로 적어주고 세미콜론 작성해주고
+
+while이 써있던 자리에 do를 써준다
+
+
+
+

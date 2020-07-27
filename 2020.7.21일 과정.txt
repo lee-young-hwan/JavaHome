@@ -1,0 +1,71 @@
+Reference Types(참조형) : 주소를 저장
+
+모든 Reference는 항상 4Byte다
+
+메모리의 주소는 4Byte
+
+숫자를 나타낼 때 ,가 아닌 _를 써준다
+
+기본형(Primitive Type) = Boolean, char, byte, short, int, long, float, double (진짜 값을 저장)
+
+참조형(Reference Type) = 기본형을 제외한 모든 값 (주소를 저장)
+
+
+기본형의 값 복사는 다른 식과는 전혀 상관이 없다
+
+참조형의 주소복사는 다른 식도 영향을 준다 
+
+
+값복사
+	1. 대상 : primitive type (기본형의 8가지 type)
+	2. 동작 : 원본이 바뀐다고 Copy본이 바뀌지 않는다. 즉, 원본과 Copy본은 서로 다르다
+
+기본형과 참조형은 같이 쓸 수 없다 (타입이 다르면 에러 발생)
+
+예외) String Class는 참조형이지만 주소가 바뀌지 않는다!!
+      왜냐하면 String은 상수(constant)이기 때문에 수정되지 않기 때문이다
+
+StringBuffer / StringBuilder = 상수를 수정해준다
+
+Casting = 사이즈의 변환 , Conversion = 성질의 변환
+
+
+
+Cast or Conversion
+
+1.자동형변환 (암시적 형변환, Implicit Converison, promotion) (승진, 생략가능)
+
+   4+ 3.14 -> 4.0 + 3.14 = 7.14 (자동으로 정수타입을 실수타입으로 변환시켜서 계산함)
+   작은쪽 + 큰쪽 -> 큰쪽 + 큰쪽 (작은쪽 타입이 큰쪽 타입으로 변환된다)
+   String + 비String = String, "Hello" + 123 -> "Hello" + "123"
+
+
+2.강제형변환 (명시적 형변환, Explicit Converison, demotion)  (강등)
+
+   (int)3.14 -> 정수
+   큰쪽 -> 작은쪽 (큰쪽 타입이 작은쪽 타입으로 변한다)
+
+
+Cast는 바뀐값만 영향을 주고, 원본에는 영향을 미치지 않는다
+
+기본형(primitive type)에서 boolean은 예외적으로 형변환이 불가능하다
+
+지역변수는 main이 끝나면 값이 사라진다
+
+지역변수는 절대로 static을 붙일 수 없다
+
+
+static 변수 : 공유하는 변수로 1개만 쓰임 (예시 : 아파트의 '놀이터')  
+
+멤버변수 : 공유하지 않는 변수로 여러개가 쓰일 수 있음 (예시 : 각 집집마다의 안방) 
+
+static이 안붙으면 멤버변수이다
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+Java 자격증 : OCJP
+
+-리터럴-
+
+리터럴 : 변수에 할당되지 않은 값 (프로그램에 필요하지만)
+
+         공간에 들어가면 Value가 된다
+
+변수와 상수는 다르다
+
+정수형/실수형/문자/문자열/Boolean literal (각각 특징파악)
+
+
+-실수의 진법변환-
+
+
+
+★주말과제★
+
+캐릭터셋을 조사하기
+
+프린트가 아닌 손으로 작성
+
+서버 - 1. Machine이 서버여야 한다
+       2. OS가 서버여야 한다
+       3. Program가 서버여야 한다
+       4. 서비스가 서버여야 한다
+
+자바는 이중정밀도(배정도)가 기준
+       실수를 저장할때 8Byte로 저장
+
+EditPlus는 이제부터 날짜별로 따로 저장함
+
+
+toBinaryString
+
+지수형 = 소수 6자리까지만 표현한다 ex) 0.314159 x 10-e3
+
+("%.18은 소숫점 18자리까지만 표현하라는뜻)
+
+
+단정도(float)보다 배정도를 선호함
+
++ : 연결연산자
+
+String = +기준으로 좌우 어느한쪽이 String이면 다른 한쪽이 String이 아니어도 String으로 바꿔준다
+
+printf = % 라는 출력형식이 필요함
+
+println, print = 출력형식이 필요없음
+
+boolean = "%b"
+
+    여러개의 타입(d,f,e,b 등등)을 출력하려면 printf가 가장 좋다!
+ex) System.out.printf("%d   %f   %s   %c   %b\n", 24, 3.14, "Hello", 'c', 4<6);
+    System.out.printf("%5d%7.2f%10s%5c%5b\n", 24, 3.14, "Hello", 'c', 4<6);
+
+
+
+데이터타입 = 책29쪽 필기참고
+
+클래스가 100% 추상이면 인터페이스
+
+자바의 User-defined -> Class, interface, enum
+
+void는 메소드 앞에서 사용 (변수로써는 사용하지 않음)
+
+자바의 기본형은 정수형-> 문자형(1.char)/숫자형(2.Byte,3.short,4.int,5.long)/실수형(6.float,7.double)/8.Boolean형 4(8)가지
+
+String은 기본형이 아닌 참조형이다      
+
+기본형은 항상 값을 저장
+
+class, interface, enum은 항상 주소를 저장
+
+char/Byte/short/int/long/float/double/Boolean = 값
+
+8가지를 제외한 나머지 = 주소
+
+정수형의 기본은 int
+
+실수형의 기본은 double
+
+ASCII의 0값 = Null
+
+ASCII로 0 = /(역슬래시)u0000
+ASCII로 65505 = /(역슬래시)uffff
+
+데이터타입 - Size(필요) 
+
+           - 종류(필요)
+
+
+
+-변수의 선언과 초기화-
+
+1. 선언
+ int age; 라고 선언한다
+
+2. 할당
+ age = 24
+
+3. 초기화
+ int age = 24; 

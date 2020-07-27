@@ -1,0 +1,115 @@
+Print가 가능한 코드 6개는 꼭 기억하기 (48번째(0) 57번째(9) 65번째(A) 90번째(Z) 97번째(a) 122번째(z))
+
+/(역슬래시)0와 0은 다르다. 
+/(역슬래시)0 = Null값, 0은 그냥 0
+
+유니코드 사이트 : home.unicode.org
+
+Naming Convension (이름 명명규칙)
+
+1. camelCasing  :  명사형(변수), 동사형(함수)이고 변수나 함수의 첫 글자는 항상 소문자로 쓴다
+                  Ex) age, kor, print(), todayDate
+
+2. PascalCasing : 첫글자를 대문자로 쓰고, 합친 단어(이어붙이는)들의 첫글자도 대문자로 쓴다
+                  Ex) HelloWorld, System, String
+
+3. Kebab-casing : 중간에 '-'를 쓴다
+                  Ex) <my-salary>                
+  
+4. snake_casing : 여러 단어로 이루어진 경우 '_'를 사용한다
+
+변수 = Scope(사용할수 있는 범위와 사용할수 없는 범위가 존재) 또는 LifeCycle 이라고 부른다
+
+Java의 변수 3가지 = 지역변수 / 멤버변수 / 클래스변수
+
+github.com/swacademy -> Java SE -> 여기에서 필요한거 보거나 Code에서 다운받기
+                                   (자바 설치과정부터 모든게 다있어서 정말 편리함, 모르는거 여기서 확인하기)
+
+기본형 변수 = 실제 값을 저장함(8개)
+참조형 변수 = 주소를 저장함(8개의 기본형을 제외한 나머지) 
+
+표준입력과 표준출력은 자바랑 상관없다
+표준입력과 표준출력은 OS가 관리한다
+사용자는 입력buffer를 통해 출력buffer로 내용이 내보내진다(41쪽참고)
+이 역할을 Scanner가 한다
+
+참조형 변수를 사용할 때는 'new'를 써준다
+
+
+1. Scanner Class 생성
+
+int        age =     24;
+(datatype) (식별자)  (초기값)
+
+Scanner    Scan =    new Scanner(System.in) <- 방향
+
+(datatype) (식별자)  (초기값)
+
+
+2. next( ) series 함수 사용
+
+정수타입 = nextInt();
+글자타입 = nextLine();
+실수타입 = nextDouble();
+
+
+Scanner는 java.util.Scanner;
+
+String은 new를 써도되고 안써도됨
+new를 안쓰면 컴파일러가 new를 붙여서 출력함
+
+nextLine은 공백이 있어도 한줄 전체를 출력함
+
+nextInt는 static이 없다
+ 
+static이 잇으면 class이름으로 접근
+static이 없으면 주소로 접근
+
+<회원가입 : Account.java>
+1. id :
+2. password :
+3. name :
+4. email : 
+
+nextLine(); 은 자동으로 Enter가 입력된다
+
+<성적관리프로그램 : SungjukMgmt.java>
+학번 :
+이름 :
+국어 :
+영어 :
+수학 :
+총점(total) : 
+평균(average) : 정수 / 실수 -> 실수
+
+16진수로 변환하는 함수 : toHexString
+메모리상에서 double로 저장할 때 보는방법 : doubleToRawLongBits
+
+역슬래시 : 역슬래시t는 t만 나타낸다.(/t는 두글자 이지만 t만 취급)
+역슬래시의 역슬래시 : 쌍따옴표 앞에 역슬래시를 붙이면 원래의미의 ""가 아닌 무늬만 ""가 된다
+
+
+
+
+1. cm로 표현된 키를 입력하여 피트와 인치로 변환하는 프로그램
+(단, 1피트는 12인치이고 1인치는 2.54cm이다. 소수점 둘째 자리까지)
+키 : 163
+163cm는 5피트, 64.17인치입니다.
+
+
+2. 원기둥의 부피를 구하는 프로그램
+(단, 부피는 소수점 2째자리까지만 표현할 것, pi = 3.14)
+원기둥 밑면의 반지름 : 5
+원기둥 높이 : 50
+원기둥의 부피는 3926.99입니다.   
+
+
+3. BMI 지수(몸무게(kg)를 키의 제곱(m)으로 나눈 값) 구하기
+키 : 183.5
+몸무게 : 73.7
+귀하의 BMI지수는  21.88입니다.
+
+
+
+
+★★★★★★★★★퇴실할때 지문꼭 찍기★★★★★★★★★★★

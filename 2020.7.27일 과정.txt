@@ -1,0 +1,55 @@
+173쪽 / 178쪽(2.6의 반복문 중요) / 
+
+for / while -> Zero-Many Loop
+do~while    -> One -Many Loop 
+
+(0727)DoWhileDemo.java -> 6개의 랜덤숫자 나오게 하기
+
+(0727)NineTimesTable.java -> 구구단
+
+(0727)DoWhileDemo1.java -> 메시지 입력후 'q' 누르면 종료시키기
+
+(0727)DoWhileDemo2.java -> 10000/02000/00300/00040/00005 로 출력시키기
+
+(0727)ContinueDemo.java -> 100보다 작은 7의 배수 출력하기
+
+(0727)ContinueDemo1.java -> 시스템 비밀번호를 1234로 정해놓고 
+                            사용자가 비밀번호를 입력해서 Login Succes/Login Fail 띄우기
+
+(0727)LabelBreakContinueDemo.java -> Label을 이용해서 5을 만났을때 5를 실행하지 않고 끝내기
+                                     Label을 이용해서 5을 만났을때 5를 건너뛰고 다음숫자부터 시작
+                                     inner / outer 사용
+
+(0727)ParseDemo.java -> 숫자형 글자를 숫자로 변환하기(ParseInt)
+
+(0727)LcmGcm.java -> ParseInt를 이용해 최대공약수, 최소공배수 구하기
+
+
+
+
+배열의 이름 : 시작 주소 
+array[ ] : 인덱스로 접근
+
+배열 : 1.선언 / 2.생성 (new) / 3.할당
+
+
+
+
+(0727)ArrayDemo.java -> array를 이용한 배열선언
+
+(0727)ArrayDemo1.java -> array를 이용한 데이터 타입의 배열 초기화(정수,실수,Boolean,char,참조형)
+
+
+
+문제1
+<<입력형식>>
+Year : 2020
+Month : 7
+Day : 27
+
+<<출력형식>>
+2020년 7월27일은 월요일 입니다.
+
+
+(0727)CalendarDemo -> 만년달력 만들기 (매우 어려움)
+
