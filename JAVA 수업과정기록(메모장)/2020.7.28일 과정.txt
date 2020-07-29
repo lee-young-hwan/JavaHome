@@ -28,7 +28,7 @@
 
 (0728)NewsAtoZ.java -> 영어문장들 중에서 A~Z의 개수 찾기
 
-(0728)ArrayDemo5.java -> array 사용해 주소값 나타내기
+(0728)ArrayDemo5.java -> array 사용해 주소값 나타내기(삭제됐음..)
 
 (0728)ArrayDemo6.java -> array 사용해 주소값 변경해보기
 

@@ -58,7 +58,13 @@ public class JavaPractice{
 		System.out.println("" + 7 + 7);*/
 
 
-		
+		for (int i = 0; i < score.length;i++)
+		{
+			for (int j = 0; j < score[i].length ;j++)
+			{
+				score[i][j] = 10;
+			}
+		}
 
 
 	}

@@ -31,6 +31,8 @@ public class ArrayDemo7{
 		System.out.printf("%s, %s, %d\n", array[i].name, array[i].maker, array[i].price);
 	}
 
+	
+
 
 	}
 }

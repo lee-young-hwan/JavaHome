@@ -33,5 +33,7 @@ public class ArrayDemo{
 			array [3] += array [i];
 		}
 		System.out.printf("국어 = %d, 영어 = %d, 수학 = %d, 총점 = %d, 평균 = %.1f\n", array [0], array [1], array [2], array [3], array [3] / 3.);
+
+
 	}
 }

@@ -26,6 +26,11 @@ public class ArrayDemo6{
 		{
 			System.out.printf("%c", array[i]);
 		}
+
+
+		
+
+		
 		
 	}
 } 

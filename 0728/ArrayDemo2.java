@@ -27,5 +27,6 @@ public class ArrayDemo2{
 		System.out.println(Arrays.toString(array)); 
 
 
+
 	}
 }

@@ -34,7 +34,7 @@ public class BubbleSorting1{
 
 			for (int i = 0; i < idx ;i++)
 			{
-				System.out.printf("%4d", array[i]);
+				System.out.printf("%d\n", array[i]);
 			}
 
 
@@ -60,7 +60,7 @@ public class BubbleSorting1{
 
 			for (int i = 0; i < idx ;i++)
 			{
-				System.out.printf("%4d", array[i]);
+				System.out.printf("%d\n", array[i]);
 			}
 
 

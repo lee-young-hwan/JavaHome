@@ -39,6 +39,12 @@ public class ArrayDemo1{
 
 	
 		System.out.printf("%d월은 %s이며 마지막 날은 %d일 입니다.", month, monthNames[month-1], monthMaxDayes[month-1]);
+
+
+
+
+
+		
 		
 
 
