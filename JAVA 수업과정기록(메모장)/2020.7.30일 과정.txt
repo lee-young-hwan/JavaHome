@@ -1,0 +1,60 @@
+
+(0730)ScoreMgmt.java -> 학생1~5의 정답 확인해보고 O,X로 개수와 점수 확인하기
+			(강사님꺼)
+
+(0730)HangYeoul.java -> 행렬의 덧셈 / 곱셈
+
+(0730)HelloWorld1~8.java -> 메소드의 8가지 경우의수 확인해보기 
+
+(0730)MethodDemo.java -> a ~ b까지의 합을 출력
+
+(0730)ReturnDemo.java -> bmi지수 출력하기
+
+(0730)Prime.java -> 2~200까지 소수 출력하기(★)
+
+(0730)LcmGcm.java -> 최대공약수와 최소공배수 출력하기
+
+(0730)ReturnDemo1.java -> 조건형 return 사용하기
+
+(0730)CallByValueDemo.java  -> swap과 return 이용
+
+(0730)SungjukMgmt.java -> 주소를 이용한 이름과 학번 출력
+
+(0730)EverySort.java -> Call By Reference 이용한 sorting 
+
+(0730)Main.java -> Before/After Sorting 
+
+
+
+메소드의 3요소 : 이름 / 반환타입(return type) / 괄호 
+
+
+괄호로 메소드와 변수를 비교 
+
+Void = 반환타입   
+
+
+호출할때 쓰는 함수 : 인자/인수
+호출당할때 쓰는함수: 매개변수
+
+Call By Value 는 Change가 안됀다
+
+
+주소 : Call By Reference
+
+값 : Call By Value
+
+
+
+문제 1.마방진 / 2. 2차원 배열로 풀어보기
+
+                           1
+                         2 3
+                       4 5 6
+                    7 8 9 10
+              11 12 13 14 15
+           16 17 18 19 20 21
+        22 23 24 25 26 27 28
+     29 30 31 32 33 34 35 36
+  37 38 39 40 41 42 43 44 45
+
