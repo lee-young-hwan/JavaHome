@@ -1,10 +1,15 @@
 StarUML - SourceForge.net
           (https://sourceforge.net/projects/staruml/files/staruml/5.0)
           (staruml-5.0-with-cm.exe 다운)
+           Default Approach 
 
+이클립스 - help - Install new SoftWare - (https://takezoe.github.io/amateras-update-site/) - Amateras Modeler 체크 - Install AnyWay - ReStart Now
+         - new - other - AmaterasUML 확장하면 Diagram 4개 확인가능
 
 amateras - (http://amateras.osdn.jp/cgi-bin/fswiki_en/wiki.cgi?page=AmaterasUML)
          - (AmaterasUML) - (Installation) - (초록색code, download ZIP)
+        
+      
 
 
 array[i] = scan.nextInt();  = 스캐너가 배열을 읽는다
@@ -20,9 +25,43 @@ array[i] = scan.nextInt();  = 스캐너가 배열을 읽는다
 
 (0731)SungjukMgmt.java -> input,calc,output 이용해서 학번,이름,성적 출력하기
 
+(0731)(성적관리프로젝트)Main.java ->  클래스이름을 이용해 학번,이름,성적 출력하기
+
+(0731)(성적관리프로젝트2)Main.java -> 클래스이름을 이용해 학번,이름,성적 출력하기
+
+(0731)Sorting.java -> Sorting 이용해서 학번,이름,성적 출력하기
+
+(0731)VariableArgumentsDemo.java -> 가변인자(... , Object)를 이용해 배열의 길이 출력하기
+
+(0731)OverloadingDemo.java -> 가변인자/오버로딩 사용해 입력해보기
+
+(0731)MethodDemo.java -> 눈으로만 확인해보기
+
+(0731)RecursiveCallDemo.java -> 재귀호출을 이용해 피보나치 수열 출력하기
 
 
 
 
 
 
+자바의 가변인자 : (...) , (Object) = Variable arguments
+
+... : 개수를 판단하지 않음
+
+Object : 데이터 타입을 판단하지 않음 (모든 객체들의 부모)
+
+
+★이해완료★
+Overloading : 메소드의 이름이 같고, 파라미터의 타입이나 갯수가 다르면 컴파일러는 다른 메소드로 인식한다.
+
+
+(static void print(메소드) = static void print(메소드)) && ((int su)(파라미터) != (int su, double su1)(파라미터))
+
+자바의 컴파일러는 이름이 같아도 허용됌
+	 
+Quick Sorting = 재귀호출 사용
+
+
+객체지향의 개념 4가지
+
+1. Abstraction(추상) / 2. Encapsulation(캡슐) / 3. Inheritance(상속) / 4. Polymorphism(다형)
