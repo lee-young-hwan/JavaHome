@@ -1,0 +1,28 @@
+StarUML - SourceForge.net
+          (https://sourceforge.net/projects/staruml/files/staruml/5.0)
+          (staruml-5.0-with-cm.exe 다운)
+
+
+amateras - (http://amateras.osdn.jp/cgi-bin/fswiki_en/wiki.cgi?page=AmaterasUML)
+         - (AmaterasUML) - (Installation) - (초록색code, download ZIP)
+
+
+array[i] = scan.nextInt();  = 스캐너가 배열을 읽는다
+
+
+(0731)Homework.java -> 2차원배열 이용해 1~45 직각삼각형 모양으로 출력
+
+(0731)CallByRefDemo.java -> StringBuffer 이용해 HelloWorld 출력하기
+
+(0731)CallByRefDemo1.java -> 참조형 반환타입을 이용해 정수 출력하기
+
+(0731)CallByRefDemo2.java -> 참조형 반환타입이 아닌 정수들 출력하기
+
+(0731)SungjukMgmt.java -> input,calc,output 이용해서 학번,이름,성적 출력하기
+
+
+
+
+
+
+
