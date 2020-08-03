@@ -8,19 +8,19 @@ public static void main(String[] args) {
 	output(younghee); 
 	
 }
-	static void input(Student s) {              // ÀÔ·Â¹ÞÀ» ÇÐ»ý , new ¾È¾²·Á°í staticÀÔ·Â}
+	static void input(Student s) {              // ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½Ð»ï¿½ , new ï¿½È¾ï¿½ï¿½ï¿½ï¿½ï¿½ staticï¿½Ô·ï¿½}
 		Scanner scan = new Scanner(System.in);
-		System.out.print("ÇÐ¹ø : ");    String hakbun = scan.next();
-		System.out.print("ÀÌ¸§ : ");    String name = scan.next();
-		System.out.print("±¹¾î : ");    int kor = scan.nextInt();
-		System.out.print("¿µ¾î : ");    int eng = scan.nextInt();
-		System.out.print("¼öÇÐ : ");    int mat = scan.nextInt();
+		System.out.print("ï¿½Ð¹ï¿½ : ");    String hakbun = scan.next();
+		System.out.print("ï¿½Ì¸ï¿½ : ");    String name = scan.next();
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ : ");    int kor = scan.nextInt();
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ : ");    int eng = scan.nextInt();
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ : ");    int mat = scan.nextInt();
 		s.hakbun = hakbun; s.name = name; s.kor = kor; s.eng = eng; s.mat = mat;
 	}
 	
-	static void calc(Student s) {               // °è»êÇÒ ÇÐ»ý,   new ¾È¾²·Á°í staticÀÔ·Â}
+	static void calc(Student s) {               // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð»ï¿½,   new ï¿½È¾ï¿½ï¿½ï¿½ï¿½ï¿½ staticï¿½Ô·ï¿½}
 		int tot = s.kor + s.eng + s.mat;
-		double avg = tot /3.;
+		double avg = tot /3.;  //
 		char grade = (avg >= 90) ? 'A' :
 						(avg >= 80) ? 'B' :
 							(avg >= 70) ? 'C' :
@@ -28,9 +28,9 @@ public static void main(String[] args) {
 		s.tot = tot; s.avg = avg; s.grade = grade;
 	}
 	
-	//sort                  // ¼ÒÆÃ
+	//sort                  // ï¿½ï¿½ï¿½ï¿½
 	
-	static void output(Student s) {             // Ãâ·ÂÇÒ ÇÐ»ý,   new ¾È¾²·Á°í staticÀÔ·Â
+	static void output(Student s) {             // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð»ï¿½,   new ï¿½È¾ï¿½ï¿½ï¿½ï¿½ï¿½ staticï¿½Ô·ï¿½
 		System.out.printf("%s\t%s\t%d\t%d\t%d\t%d\t%.1f\t%c%n", s.hakbun, s.name, s.kor, s.eng, s.mat, s.tot, s.avg, s.grade);
 	}   
 }

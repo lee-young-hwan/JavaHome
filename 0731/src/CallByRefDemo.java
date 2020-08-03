@@ -4,16 +4,16 @@ public class CallByRefDemo {
 public static void main(String[] args) {
 	String str = "Hello";
 	StringBuffer sb = new StringBuffer("Hello");
-	System.out.println("¼öÁ¤ Àü");
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
 	System.out.println("str = " + str + ", sb = " + sb.toString());
 	change(str,sb);// Call By Reference
-	System.out.println("¼öÁ¤ ÈÄ");
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
 	System.out.println("str = " + str + ", sb = " + sb.toString());
 }
  static void change(String str, StringBuffer sb) {
 	 str += ", World";
 	 sb.append(", World");
-	 System.out.println("ÇÔ¼ö¿¡¼­");
+	 System.out.println("ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½");
 	 System.out.println("str = " + str + ", sb = " + sb.toString());
  }
 }
