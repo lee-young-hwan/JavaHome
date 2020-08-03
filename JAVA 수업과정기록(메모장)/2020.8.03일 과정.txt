@@ -4,3 +4,6 @@ Object - 1.속성(Attribute) : 필드
 Class - 변수, 상수, 메소드
  
 Instance 
+
+StarUML : () 없으면 변수 / ()있으면 메소드
+          UML은 변수와 데이터타입 순서가 반대 ex) hakbun String
