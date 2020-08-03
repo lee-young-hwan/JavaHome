@@ -7,3 +7,37 @@ Instance
 
 StarUML : () 없으면 변수 / ()있으면 메소드
           UML은 변수와 데이터타입 순서가 반대 ex) hakbun String
+
+
+- private는 외부에서 접근이 불가능(숨김, 기능제한)
+- public는 print 접근까지는 가능, 권한이 주어지면 접근이 가능
+ 
+보안 = private > public
+
+외부에 공개 = Public (outside 접근)
+외부에 공개x = Privtate (inside 접근)
+
+
+(0803)Car.java -> StarUML의 자료를 가지고 클래스 생성해보기
+(0803)AbstractionDemo.java -> Car의 속성과 기능 출력해보기
+(0803)AbstractionDemo1.java -> 배열을 통해 Car의 속성과 기능 출력해보기
+(0803)Car1.java -> getName, setName 사용해보기
+(0803)EncapDemo.java -> getName, setName 사용해보기
+(0803)Product, Main.java -> product 다시쓰기
+(0803) 더 있으니까 dropbox에서 확인하기
+
+
+this = 내 주소    /    this. = 나의
+
+
+int tot = chulsu.getTot() -> 읽어서 오른쪽에 넣기
+
+chulsu.setTot(360) -> 값이 괄호안에 파라미터로 들어감
+
+
+- quicksort(array, 0, array.length - 1) -
+
+ 가운데 중심으로 왼쪽은 가운데보다 작아야함
+ 가운데 중심으로 오른쪽은 가운데보다 커야함
+
+  
