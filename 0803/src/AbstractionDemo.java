@@ -4,6 +4,7 @@ public class AbstractionDemo {
 public static void main(String[] args) {
 	Car sonata; // 선언
 	sonata = new Car(); // 234쪽 2.4
+	
 	sonata.name = "소나타";
 	sonata.maker = "현대자동차";
 	sonata.color = "Sliver";

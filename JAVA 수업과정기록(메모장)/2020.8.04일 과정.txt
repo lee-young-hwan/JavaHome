@@ -14,6 +14,7 @@ setter : 파라미터x  /  getter : 파라미터o
 (0804)ConstructorDemo1.java -> this를 이용해서 기본생성자 재정의하기(Overriding)
 (0804)Initialized.java -> Overroading 확인하기
 (0804)ConstructorDemo2, DestructorDemo.java -> gc를 이용해서 소멸자 만들어보기
+(0804)dropbox에 가서 0804 자료들 따로 확인해보기...
 
 StarUML에서 Static변수(UnderLine)는 OwnerScope를 CLASSFIER로 바꿔주면된다
 
@@ -21,3 +22,62 @@ StarUML에서 Static변수(UnderLine)는 OwnerScope를 CLASSFIER로 바꿔주면
 멤버변수 초기화 = 생성자
 클래스변수 초기화 = 클래스 초기화 블록
 생성자 호출시 반드시 new가 필요
+this 메소드는 무조건 제일 첫번째 와야한다
+
+
+Main.java / Product.java
+
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+	Main m = new Main();
+	Product p = new Product();
+	m.input(p);
+	p.calculate();
+	p.print();
+}
+	
+	void input(Product p) { // 멤버 변수
+		Scanner scan = new Scanner(System.in);
+		System.out.print("상품 이름 : "); p.name = scan.next();
+		System.out.print("수량 : "); p.quantity = scan.nextInt();
+		System.out.print("판매 단가 : "); p.sellmoney = scan.nextInt();
+		System.out.print("매입 단가 : "); p.buymoney = scan.nextInt();
+		System.out.print("운송료 : "); p.fee = scan.nextInt();
+	}
+	
+	
+}
+
+
+
+
+
+public class Product {
+	String name;
+	int quantity, sellmoney, buymoney, fee, profit;
+	double rate;
+	
+	void calculate() {
+		//1) 판매금액 = 수량 * 판매단가
+		int sell = quantity * sellmoney;
+		
+		//2) 매입금액 = 수량 * 매입단가
+		int buy = quantity * buymoney;
+		
+		//3) 이익금 = 판매금액 - (매입금액 + 운송료)
+		profit = sell - (buy + fee);
+		
+		//4) 이익율 = 이익금 / 매입금액 * 100
+		rate = (double)profit / buy * 100;
+	}
+	
+	void print() {
+		System.out.printf("%s\t%d\t%d\t%d\t%d\t%d\t%.2f\n", name, quantity, sellmoney, buymoney, fee, profit, rate);
+	}
+	
+}
+
+

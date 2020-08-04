@@ -1,3 +1,5 @@
+package 力前包府橇肺弊伐;
+
 import java.util.Scanner;
 
 public class Main {

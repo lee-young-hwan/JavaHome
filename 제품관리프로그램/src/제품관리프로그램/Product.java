@@ -1,3 +1,4 @@
+package 力前包府橇肺弊伐;
 
 public class Product {
 	String name;
@@ -23,3 +24,5 @@ public class Product {
 	}
 	
 }
+
+
