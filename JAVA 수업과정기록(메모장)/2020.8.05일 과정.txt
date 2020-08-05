@@ -1,0 +1,37 @@
+ 복습
+
+
+         -생성자-
+
+- 멤버 변수를 초기화
+- 이름은 클래스이름과 동일해야함
+- Return 타입을 가지지 않음
+- 객체를 생성할때만 호출가능
+- 기본생성자는 괄호안에 아무것도 들어있지 않음
+
+
+
+BMI의 파일입력 : 이름, 키, 몸무게
+계산
+화면출력
+
+(0805)성적관리프로젝트4.java -> private, public, this 이용해 성적출력
+(0805)BMIMgmt.java(설명약간써놓음) -> 
+(0805)Sungjuk.java ->
+(0805)HospitalMgmt.java -> 
+
+
+\(역슬래시)s* : 0개이상
+\(역슬래시)s+ : 1개이상
+\(역슬래시)s? : 0개 또는 1개
+
+
+"34"    -> 34      = Integer.parseInt("34") -> 34
+"178.3" -> 178.3   = Double.parseDouble("178.3") -> 178.3
+
+
+
+자식기준 상위클래스가 1개     : Single inheritance
+자식기준 상위클래스가 2개이상 : Multiple inheritance 
+
+★https://github.com/ojin0611/JavaSE★
