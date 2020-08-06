@@ -65,9 +65,15 @@ public void setGrade(char grade) {
 	this.grade = grade;
 }
 
-public void print() {
-	System.out.printf("%s\t%s\t%d\t%d\t%d\t%d\t%.1f\t%c%n", this.hakbun, name, kor, eng, mat, tot, avg, grade);
+@Override  // 의도적으로 재정의
+public String toString() {
+	return String.format("Student [name=%s, hakbun=%s, kor=%s, eng=%s, mat=%s, tot=%s, avg=%s, grade=%s]", name, hakbun,
+			kor, eng, mat, tot, avg, grade);
 }
+
+//public void print() {
+//	System.out.printf("%s\t%s\t%d\t%d\t%d\t%d\t%.1f\t%c%n", this.hakbun, name, kor, eng, mat, tot, avg, grade);
+//}
  
 }
 

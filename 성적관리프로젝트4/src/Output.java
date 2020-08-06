@@ -16,9 +16,10 @@ public class Output {
 	}
 	public void output() {             // 출력할 학생,   new 안쓰려고 static입력, 공개해야하는 메소드
 		PrintLabel();
-		for (int i = 0; i < array.length; i++) {
-			Student s = array[i];			
-			s.print();
+		for (Student s : this.array) {
+			System.out.println(s);     // to.String은 생략이 가능
+		//	Student s = array[i];			
+		//	s.print();
 		}
 //		for (int i = 0; i < this.array.length; i++) {
 //		Student s = array[i]; 

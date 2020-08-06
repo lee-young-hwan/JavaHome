@@ -1,0 +1,48 @@
+ -상속-
+
+자식(Class)     : 부모(Class)       - >  동종상속 (extends)
+자식(Class)     : 부모(interface)   - >  implements
+자식(interface) : 부모(interface)   - >  extends
+
+상속은 복사의 개념이 아닌 공유
+
+static은 상속과 관련이 없다
+
+
+상속이 되지 않는 자원들
+ 1. private로 선언된 자원들
+
+ 2. static으로 선언된 자원들
+
+ 3. 생성자(Constructor)
+    - 자식 클래스의 어떤 생성자던 부모의 기본생성자만 호출해야 한다.
+    - 만일 부모의 기본 생성자가 없다면 명시적으로 부모의 기본 생성자를 만든다
+    - 자식 생성자에서 super(파라미터)를 만든다
+
+ 4. 동일한 이름의 변수, 동일한 메소드는 상속되지 않는다
+    - OVerShadow 변수 (잘 쓰이진 않음)
+    - Overide Method (자주 쓰임)
+  
+
+this()와 super()는
+1. 반드시 생성자 안에서만 위치해야 한다
+2. 반드시 첫번째 줄에 위치해야 한다
+3. 같이쓸수없다 (서로 첫번째에 위치해야 하기 때문)
+
+
+
+static과 this는 같이 쓸수 없다
+이름이 같으면 OverShadow
+Override 메소드는 상속되지 않음
+
+@Override // 의도적으로 재정의한다는 뜻
+
+String.format = 서식이 들어감
+to.String = 생략이 가능
+
+
+public > protected > (default, internal)   넓음 > 좁음 순서
+
+자식은 부모랑 같거나 부모보다 넓어야한다 
+
+
