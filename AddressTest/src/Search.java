@@ -26,5 +26,4 @@ public class Search {
 		System.out.println("동일한 이름이 없습니다.");
 		System.out.println("==================================");
 	}
-	
 }

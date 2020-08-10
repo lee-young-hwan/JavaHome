@@ -1,4 +1,4 @@
-public class Calc {
+ class Calc {
 	private Patient[] array;
 
 	public Calc(Patient[] array) {

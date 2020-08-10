@@ -1,0 +1,32 @@
+
+1. Pacakage / import
+
+2. classpath
+
+3. .jar
+
+
+-d 뒤에 경로 (안쓰면 항상 현재 위치)
+
+d : -> cd javahome -> javac -d C:/Temp Employee.java
+       (main -> d드라이브 / Employee.class -> c드라이브)
+
+
+java -classpath .;C:/Temp Main.java (윈도우만 ;고 나머지는 .)
+
+cmd -> 시스템속성의 환경변수 -> 새로만들기 -> 변수이름(CLASSPATH) -> 변수값(.;C:/Temp)
+       (이 설정을 하면 classpath를 컴파일/실행할 때마다 사용할 필요없음)
+
+
+ *  추상클래스의 목적 : 다형성의 강제화(선언형=부모, 실제형=자식)
+ *  추상메소드의 목적 : Override의 강제화
+ *  abstract와 final은 같이 쓸 수 없다
+ *  abstract는 자식을 무조건 만들어야함
+ *  추상클래스는 반드시 자식에 의해서만 구현된다
+ *  강제 재정의 = 부모메소드를 추상메소드로 정의
+
+ *  interface는 추상클래스의 일종이기 때문에 역시 new로 인스턴스화 할 수 없다. 그래서 다형성으로 구현해야 한다.
+ *  interface의 멤버는 static 상수이기 때문에 수정할 수 없고, interface 이름으로 접근해야 한다.
+
+
+implements Cloneable : 복제가 가능해짐

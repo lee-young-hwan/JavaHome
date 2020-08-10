@@ -2,7 +2,7 @@
 
 public class InstanceOfDemo {
 	public static void main(String[] args) {
-		Mammal m = new Mammal();  // 부모형
+		//Mammal m = new Mammal();  // 부모형
 		Korean ko = new Korean(); // 자식형
 		// "한국인은 포유류이다." 
 		//m = (Mammal)ko; // 자식이 부모형으로 변환하는 것은 무조건 성공
