@@ -1,9 +1,17 @@
 
 
 public class Calc {
+	private Telephone [] array;
+	
+	
+	public Calc(Telephone[] array) {
+		this.array = array;
+	}
 
-	public void calc(Telephone [] array) {
-		for (int i = 0; i < array.length; i++) {
+
+
+	public void calc() {
+		for (int i = 0; i < this.array.length; i++) {
 			Telephone phone = array[i];
 		switch(phone.getKind()) {
 		case 1: phone.setGibon(6000); break;
@@ -15,11 +23,13 @@ public class Calc {
 		phone.setSum(sum); // 통화료
 
 		int tax = (int)((phone.getGibon() + sum) * 0.1);
-		phone.setTax(tax);
+		phone.setTax(tax); // 세금
 		
 		int fee = phone.getGibon() + tax + sum; // 공과금
 		phone.setFee(fee);
 		}
 	}
+
+
 
 }
