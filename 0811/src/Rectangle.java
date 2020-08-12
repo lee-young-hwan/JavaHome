@@ -19,5 +19,5 @@ public class Rectangle extends Shape {
 	public String toString() {
 		return String.format("가로 = %d, 세로 = %d", width, length);
 	}
-
+	
 }
