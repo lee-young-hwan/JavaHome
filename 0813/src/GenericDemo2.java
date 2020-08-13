@@ -11,8 +11,8 @@ public class GenericDemo2 {
 		
 		
 		Carnival [] array1 = new Carnival[] {new Carnival("Red Carnival", 25_000_000, "red"),
-                new Carnival("Blue Carnival", 28_000_000, "blue"),
-                new Carnival("Black Carnival", 30_000_000, "black")};
+											 new Carnival("Blue Carnival", 28_000_000, "blue"),
+											 new Carnival("Black Carnival", 30_000_000, "black")};
 List<Carnival> carnivalList = Arrays.asList(array1);
 sort(carnivalList);
 

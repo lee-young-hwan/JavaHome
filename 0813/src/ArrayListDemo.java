@@ -9,5 +9,6 @@ public class ArrayListDemo {
 		ArrayList<Integer> alist = new ArrayList(list);
 		//System.out.println(alist.size());
 		System.out.println(alist);
+		
 	}
 }
