@@ -15,7 +15,7 @@ public class StringParsingDemo {
 
 		/*
 		// 1锅掳 规过
-		String [] array = str.trim().split("\\s+");
+		String [] array = str.trim().split("\\s+");                
 		System.out.println(array.length);
 		
 		// 2锅掳 规过
