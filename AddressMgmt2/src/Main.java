@@ -19,6 +19,7 @@ public class Main {
 		m.process(choice);
 		} while(true);
 	}
+	
 	private int showMenu() {
 		System.out.println("1. 추가     2.검색     3.목록보기    4.삭제     9.종료");
 		System.out.print(">> ");
@@ -42,6 +43,7 @@ public class Main {
 		Delete delete = new Delete(this.vector);
 		delete.delete();
 	}
+	
 	
 	private void gotoSearch() {
 		if (this.vector.size() == 0) {

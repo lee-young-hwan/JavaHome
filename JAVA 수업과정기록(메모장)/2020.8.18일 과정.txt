@@ -1,0 +1,20 @@
+프로그램(하드디스크) = 프로세스(메모리) = 스레드(CPU)
+
+싱글스레드는 동시에 여러작업을 할 수 없다. ex) 무전기
+
+멀티스레드는 자원을 효율적으로 이용할 수 있다.
+
+(속도) CPU > 메모리 > 하드디스크 
+
+대기상태 : Runnable
+
+동기화(Synchronization) : synchronized, lock
+동기식(Spring5, Spring Boot, Node.js, jQuery) / 비동기식(ex.댓글)
+
+
+Stream(스트림)
+ 1. Sequence
+ 2. Not Concurrency (하나의 스트림으로 입출력을 동시에 할 수 없음
+
+
+read 메소드는 byte[]를 써야함
