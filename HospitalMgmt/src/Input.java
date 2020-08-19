@@ -30,6 +30,7 @@ public class Input {
 			
 			this.array[count] = new Patient(no, code, days, age);
 			count++;
+			
 		} while( io.equals("I"));
 		
 		Patient[] arr = new Patient[count];
