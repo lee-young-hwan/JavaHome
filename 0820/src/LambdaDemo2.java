@@ -13,7 +13,7 @@ public class LambdaDemo2 {
 		//System.out.println(Arrays.toString(list.toArray()));
 		List<String> list1 = Arrays.asList("Hello", "Java", "Oracle", "apple", "ÇÑÁö¹Î", "¹ÚÁö¹Î", "±èÁö¹Î", "123");
 		Collections.sort(list1, (a, b) -> a.compareTo(b) * -1);
-		System.out.println(Arrays.toString(list1.toArray())); 
+		System.out.println(Arrays.toString(list1.toArray()));
 		
 	}
 }

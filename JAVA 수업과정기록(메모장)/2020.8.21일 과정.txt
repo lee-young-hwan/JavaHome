@@ -1,0 +1,14 @@
+
+ 서버
+1. Machine
+2. OS
+3. P/G
+4. Service start 
+
+ 소켓
+1. IP : Airport 
+
+2. #Port : #gateway 
+
+
+
