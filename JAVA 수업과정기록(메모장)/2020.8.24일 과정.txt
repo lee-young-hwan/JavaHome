@@ -1,0 +1,55 @@
+INetAddress / URL / URLConnection / URLEncoder / URLDecoder / Socket / ServerSocket
+
+LocalHost : 자기가 자기 머신을 가리킬때 로컬호스트라고 함 (ex:DESKTOP-IUVI60V)
+
+
+(08.31 발표) : 벤치마킹보고서 / 유스케이스
+
+
+host : URL에 노출이 안됌
+
+URL이 형식에 맞는지 틀리는지 검사 
+
+Connection
+
+CRUD : Create, Read, Update, Delete / Insert, Select, Update, Delete
+
+
+Get(Post) / index.html / Http/1.1
+
+200 : 정상
+404 : Not found
+500 : Internal Error
+
+
+(header)
+
+blank line
+
+(Body) : 우리눈에 보이는 구간
+
+
+
+TCP
+ - Socket  (일반 클라이언트)
+ - ServerSocket (서버)
+ - Connection-oriented Protocol (접속지향 프로토콜)
+ - 신뢰성 통신, ACK 
+
+
+UDP
+ - UserDatagramPacket
+ - UserDatagramSocket
+ - Connection-less Protocol (비접속지향 프로토콜)
+ - 속도가 빠름
+ - 비신뢰성 통신
+
+
+Server                     Client
+생성자(8888)               Socket("127.0.0.1", 8888)
+while(true)                   
+accept()
+
+
+OracleServiceXE
+Oracle
