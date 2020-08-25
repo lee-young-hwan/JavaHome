@@ -1,0 +1,114 @@
+DatagramPacket(무엇을, 길이, 클라이언트 주소, 클라이언트 포트)
+
+
+byte[] array -> String(생성자)              : 인코딩
+
+String(.getBytes()) -> byte [] array        : 디코딩
+
+
+SmallBuffer(32byte) -> 11240ms
+
+SmallBuffer(1024byte) -> 427ms 
+
+FullBuffer -> 384ms
+
+FileChannelDemo -> 244ms
+
+FileChannelDemo1 -> 56ms
+
+FileChannelDemo2 -> 49ms 
+
+
+
+-------------------------------------오라클----------------------------------------
+
+SQL 5대 객체
+
+1.테이블 
+2. 뷰 
+3. 인덱스
+4. 시퀸스
+5. 동의어
+
+
+
+PL/SQL
+
+프로시저(★)
+커서(★)
+함수
+트리거
+패키지
+
+
+정 관리자 : sys 
+부 관리자 : system
+
+
+SELECT / INSERT / UPDATE / DELETE
+
+
+★오라클 설치방법★
+
+1. 구성옵션 => 단일~~
+
+2. 시스템 클래스 => 서버 클래스
+
+3. 설치 유형 => 고급설치
+
+4. 데이터베이스 버전 => Enterprise~
+
+5. Oracle 홈 사용자 => 가상 계정 사용 
+
+6. 설치 위치 => C:\OracleORCL
+
+7. 구성 유형 => 일반용/트랜잭션처리
+
+8. 데이터베이스 식별자 => 다음넘어가기
+
+9. 구성 옵션 => 샘플스키마 (데이터베이스 샘플스키마 설치 체크)
+
+10. 데이터베이스 저장 영역 => 다음넘어가기
+
+11. 관리 옵션 => 다음넘어가기
+
+12. 복구 옵션 => 다음넘어가기
+
+13. 스키마 비밀번호 => 모든계정에 동일한 비밀번호 사용(javaoracle 로 설정)
+
+14. 필요 조건 검사 => 설치
+
+
+
+데이터는 항상 무결성의 원칙 
+데이터는 항상 중복되면 안됌
+
+
+
+1.OracleOraDB19Home1MTSRecoveryService : 사용안함 , 중지 (실행, 수동)으로 변경되어야함
+
+2.OracleServiceORCL : (실행, 수동)으로 변경되어야함 
+
+
+
+
+
+
+★계정만들기★
+
+
+
+c드라이브 - temp에 scott.sql 갖다놓기
+
+
+
+TCL : SAVEPOINT, ROLLBACK, COMMIT
+
+DML : INSERT, DELETE, UPDATE
+
+DQL : SELECT
+
+DDL : CREATE, DROP, ALTER, RENAME, COMMENT
+
+DCL : GRANT, REVOKE, 
+
