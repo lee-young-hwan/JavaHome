@@ -1,0 +1,125 @@
+
+집에서 설치하기
+
+1. Oracle XE 설치
+2. SYS로 login
+3. scott 계정생성
+4. 권한부여
+5. scott/tiger로
+6. login
+7. scott.sql 실행
+
+
+
+-------------------------------------------
+탐색기 - d드라이브 - .metadata - .plugins - result
+
+
+
+connect - orcl - schema - scott - tables - emp - data(edit)
+
+
+
+안깔린사람
+
+help - install new software
+http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/ <- 주소에넣고 설치
+
+
+
+
+-- 날짜 형식 다루기
+-- DATA 형식은 NLS_DATE_FORMAT 형식에 맞춰야한다.
+
+DESC NLS_SESSION_PARAMETERS 
+SELECT parameter, value
+FROM NLS_SESSION_PARAMETERS;
+
+ALTER SESSION
+SET NLS_DATE_FORMAT = 'YYYY-MM-DD';
+
+와일드카드를 쓸 때는 '='를 절대쓰면 안된다(LIKE를 써야함)
+
+
+
+zipcode와 zipcode_ansi 생성해보기
+
+1. github의 oracle에서 zipcode1.sql / zipcode_ansi.sql를 다운로드한다
+2. c드라이브의 temp에 저장시킨다
+
+3.cmd - d: - cd oraclehome - sqlplus /nolog - 
+  connect scott - tiger(비번) - show user - start C:/temp/zipcode1.sql - desc zipcode
+  (여기까지 zipcode.sql 생성)
+ 
+4. start C:/temp/zipcode_ansi.sql - commit
+
+
+
+SELECT COUNT(*) FROM zipcode;
+
+
+DESC zipcode;
+
+SELECT *
+FROM zipcode
+WHERE dong LIKE '역삼%';
+
+
+SELECT
+FROM zipcode
+WHERE dong LIKE '%개포%' and '서울';
+
+
+
+
+-VISUAL STUDIO CODE-
+
+1. https://code.visualstudio.com (우 상단에 있는 Download)
+2. System Installer(관리자 권한) 64bit 
+3. 동의 - 다음 - 다음 - 체크표시 전부하기 - 설치 - visual stduio code 실행 체크해제 - 종료
+4. file열기 - d드라이브 - oraclehome
+5. 맨왼쪽에 5번째 (Extensions 클릭)
+6. korean language pack for... install 클릭
+7. 오른쪽하단에 restart now 누르면 한국어로 바뀜
+8. Night Owl - 색테마설정 - Night Owl light로 변경
+9. Material icon theme
+10.오른쪽 하단에서 UTF-8 
+
+
+글꼴변경
+ FILE - 기본설정
+
+c드라이브 - oracle_Home - sqlplus - admin - glogin.sql(editplus로 열기)
+
+define_editor = "C:\Program Files\Microsoft VS Code.exe"
+
+d: - cd oraclehome - sqlplus scott/tiger 
+
+
+---------------------------------------------------------------------------
+
+오라클 함수 집가서 다시 복습해보기
+
+
+INSTR
+
+GET / HTTP/1.1
+
+
+
+-CHR
+SELECT CHR(97)
+FROM dual;             -> a
+
+-ASCII
+SELECT ASCII('a')
+FROM dual;             -> 97
+
+
+
+
+
+
+
+
+
