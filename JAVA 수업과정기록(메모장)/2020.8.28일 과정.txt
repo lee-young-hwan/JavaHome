@@ -1,0 +1,34 @@
+쉬는시간에 LPAD,RPAD부터 복습해보기
+
+
+Eclipse와 java 연동하기
+
+1. Eclipse 우상단에 Open Perspective
+2. Java(default) Open
+3. 프로젝트 만들고 클래스(JdbcDemo) 생성
+4. Build Path - Configure build path
+5. Libraries - classpath클릭 - (odbc8.jar) - Add Exterial JARs 클릭
+6.
+
+
+
+API 확인해보는법
+
+core_java - index - all packages - java.sql
+
+
+
+
+DataBase Connections의 orcl 만들기
+
+1. 우측상단에 Open Perspective
+2. Database Development
+3. Database Connections에서 new
+4. Oracle Database Connection - next
+5. Drivers를 12c Driver로 변경
+6. SID : orcl / HOST : 127.0.0.1 / Port Number : 1521 / user name : scott
+   Password : tiger / connection URL : jdbc:oracle:thin:@127.0.0.1:1521:orcl
+7. test connection 해서 ping 성공이면 finish
+
+
+
